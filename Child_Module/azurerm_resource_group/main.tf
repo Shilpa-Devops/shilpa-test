@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "dev-test1" {
-  name     = "test1-rg"
-  location = "West Europe"
+  name     = var.resource_group_name
+  location = var.resource_group_location
 }
