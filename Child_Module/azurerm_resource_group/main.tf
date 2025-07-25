@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "dev-test1" {
   location = "West Europe"
 }
 
-resource "azurerm_resource_group" "dev-test2" {
-  name     = "test2-rg"
+resource "azurerm_resource_group" "dev-test3" {
+  name     = "test3-rg"
   location = "West Europe"
 }
